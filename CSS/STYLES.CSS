@@ -16,7 +16,8 @@ body {
 }
 
 .slideimg{
-    height: 350px;
+    height: 550px;
+    z-index: 1;
 }
 
 /* noticias o novedades */
