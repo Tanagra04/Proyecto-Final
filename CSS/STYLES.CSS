@@ -44,3 +44,30 @@ body {
     width: 180px;
     height: 160;
 }
+
+/* footer */
+#page-footer .ftcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    background-color: rgb(208, 171, 243);
+    padding: 70px 0;
+}
+
+.footer_cta-ftcontainer{
+    max-width: 1200px;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.ftrow{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
