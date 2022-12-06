@@ -1,31 +1,56 @@
 /* fuente */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Indie Flower', cursive;
+    font-family:'Montserrat', sans-serif;
     overflow-x:hidden;
 }
 
 #menu{
-    background-color:rgb(240, 230, 237) !important;
+    background-color:rgb(245, 244, 244) !important;
 } 
 
 .logo{
     width: 200px;
 }
 
-.slideimg{
-    height: 550px;
-    z-index: 1;
+.carousel-caption {
+    /* FONT-WEIGHT: 400; */
+    position: absolute;
+    top: 40%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: rgb(250, 244, 244);
+    text-align: right;
+}
+
+.btn-light {
+    --bs-btn-color: #e9eff5;
+    --bs-btn-bg: transparent;
+    --bs-btn-hover-border-color: #212529;
+    --bs-btn-focus-shadow-rgb: 211,212,213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #2071c2;
+    --bs-btn-active-border-color: #5399e0;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #0c3a68;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    border: 2px solid #ffff;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* noticias o novedades */
-#novedades{
-    background-color: rgb(248, 166, 221);
+#noticias{
+    background-color: rgb(3, 11, 72);
 }
 
-#novedades .titulo{
+#noticias .titulo{
     width: 100%;
     color: #fff;
     text-align: center;
@@ -36,190 +61,47 @@ body {
 }
 
 .buy{
-    margin-left: 75%;
-}
-
-/*servicios*/
-.services{
-    width: 180px;
-    height: 160;
-}
-
-/* footer */
-#page-footer .ftcontainer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: flex-start;
-    background-color: rgb(230, 104, 198);
-    padding: 70px 0;
-}
-
-.footer__cta-ftcontainer{
-    max-width: 1200px;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
-.ftrow{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.footer__cta-ftcontainer .cta__txt{
-    font-size: 36px;
-    max-width: 50%;
-    padding: 0;
-
-}
-
-.footer__cta-ftcontainer .cta__btn{
-    margin-top: 0;
-}
-
-.footer__menu{
-    max-width: 300px;
-    grid-column: 1/3;
-    grid-row-start: 1;
-    padding-left: 1em;
-}
-
-.footer__menu figure{
-    width: 100%;
-    margin-top: 13px;
-    padding: 0;
-    margin: 0;
-}
-
-.footer__cta-ftcontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 70px 0;
-    align-items: center;
-    align-content: center;
-    position: relative;
-    flex-wrap: nowrap;
-}
-
-.footer__cta-ftcontainer:after{
-    position: absolute;
-    background-color: rgba(253, 253, 253, 0.858);
-    max-width: 1200px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0 auto;
-    content: "";
-    height: 1px;
+    margin-left: 30%;
     
 }
 
-.footer__cta-ftcontainer .cta__txt{
-    margin: 0;
-    color: #fff;
-    font-size: 26px;
-    padding: 0 15px;
+/* servicios */
+.services{
+    width: 180px;
+    height: 160px;
+}
+.iconos-redes{
+    width: 20px;
+    margin: 10px 5px;
+    
 }
 
-.footer_cta-ftcontainer .cta_btn{
-    color: #fff;
-    border: 2px solid rgb(68, 3, 3);
-    padding: 26px 60px;
-    border-radius: 500px;
-    background-color: transparent;
-    font-size: 16px;
-    letter-spacing: 2px;
-    display: inline-block;
-    font-weight: 700;
-    transition: all .4s ease-in-out;
-    margin-top: 30px;
-}
+/* footer */
 
-.footer__cta-ftcontainer .cta__btn:hover{
-    color: rgb(103, 237, 108);
-    background-color: rgb(58, 2, 2);
-    border-color: rgb(49, 2, 2);
-}
-
-.footer__menu{
-    padding: 0 15px;
-}
-
-.footer__link{
-    margin: 1em 0;
-    list-style: none;
-    font-size: 16px;
-    padding: 5px 0 5px .5em;
-}
-
-.ft-social{
-    border: 0;
-    width: 30px;
-    font-size: 16px;
-    color: #fff;
-    border-radius: 100%;
-    display: inline-block;
-    height: auto;
-    line-height:inherit;
-}
-
-.ft-link{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.footer__link:nth-child(1){
-    border-left: 3px solid rgb(248, 203, 5);
-}
-
-.footer__link:nth-child(2) {
-    border-left: 3px solid rgb(248, 5, 5);
-}
-
-.footer__link:nth-child(3) {
-    border-left: 3px solid rgb(17, 5, 248);
-}
-
-.footer__title{
-    color: #fff;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.footer__info{
-    color: #fff;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 1px;    
-}
 footer{
-    background-color:rgb(216, 48, 174);
-    min-height: 100px;
+    background-color: rgb(204, 142, 235);
+    padding: 100px 0;
+    text-align: center;
 }
 
-footer p{
-    color: #fff;
-    text-align:center;
+footer.logo{
+    width: 200px;
+    margin-bottom: 20px;
 }
 
-#page-footer .ftcontainer{
-    flex-direction: row;
-    max-width: 1200px;
-    justify-content: space-between;
-    padding: 70px 0;
-    margin: 0 auto;
-}
 
-.footer__logo{
+/* pagina samsug */
+#ofertastv{
+    background-color: rgb(255, 255, 255);
+}
+#ofertastv .titulo {
     width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
+/* pag contacto */
+#contacto .titulo {
+    width: 100%;
+    text-align: center;
+}
