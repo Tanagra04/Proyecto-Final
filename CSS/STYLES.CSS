@@ -45,9 +45,10 @@ body {
     padding-right: 25px;
 }
 
+
 /* noticias o novedades */
 #noticias{
-    background-color: rgb(3, 11, 72);
+    background-color: rgb(238, 150, 234);
 }
 
 #noticias .titulo{
@@ -90,11 +91,11 @@ footer.logo{
 }
 
 
-/* pagina samsug */
-#ofertastv{
+/* pagina Manicure */
+#ofertas{
     background-color: rgb(255, 255, 255);
 }
-#ofertastv .titulo {
+#ofertas .titulo {
     width: 100%;
     color: rgb(0, 0, 0);
     text-align: center;
