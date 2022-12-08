@@ -53,12 +53,17 @@ body {
 
 #noticias .titulo{
     width: 100%;
-    color: #fff;
+    color: rgb(26, 23, 23);
     text-align: center;
 }
 
 .card-title{
     text-align: center;
+}
+
+.card img{
+    width: 400px;
+    height: 400px;
 }
 
 .buy{
